@@ -4,4 +4,4 @@ learning source : [PyOTA's documentation](https://pyota.readthedocs.io/)
 
 ## Codes Information
 ### Getting Started
-+ [get_Node_Info](/get_Node_Info.py) : Use get_node_info() to test the connection and get basic information from server(node).
++ [get_Node_Info](/get_Node_Info.py) : Use `get_node_info()` to test the connection and get basic information from server(node).
