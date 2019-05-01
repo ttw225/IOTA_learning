@@ -1,0 +1,80 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddressGenerator	../generating_address.py	/^from iota.crypto.addresses import AddressGenerator$/;"	kind:namespace	line:2
+Adr	../checkAddress.py	/^        Adr = iota.Address(InputAddr)$/;"	kind:variable	line:9
+Adr	../checksum.py	/^Adr = iota.Address($/;"	kind:variable	line:4
+Adr2	../checkAddress.py	/^    Adr2 = iota.Address(InputAddr)$/;"	kind:variable	line:16
+AdrInclCheckSum	../checksum.py	/^AdrInclCheckSum = Adr.with_valid_checksum()$/;"	kind:variable	line:11
+FinalBundle	../SendTransfer.py	/^FinalBundle = api.send_transfer(depth=3,$/;"	kind:variable	line:29
+FinalBundle	../SendTransferBasic.py	/^FinalBundle = api.send_transfer(depth=3,$/;"	kind:variable	line:32
+InputAddr	../checkAddress.py	/^        InputAddr = Adr.with_valid_checksum()$/;"	kind:variable	line:10
+InputAddr	../checkAddress.py	/^InputAddr = b"VOBLCCGXZOHUWUWTYJBZUFQBTDEOC9UZTUCORAKPAXPZLXRVWDZDKOIQHWIYXSCMKFMWYYCZBUHRWQSHXUPABOQSAW"$/;"	kind:variable	line:3
+Iota	../broadcast_and_store.py	/^from iota import Iota$/;"	kind:namespace	line:1
+Iota	../extendedAPIs/broadcast_and_store.py	/^from iota.api import Iota$/;"	kind:namespace	line:2
+Iota	../generating_address.py	/^from iota import Iota$/;"	kind:namespace	line:1
+Iota	../get_Node_Info.py	/^from iota import Iota$/;"	kind:namespace	line:1
+MySeed	../SendTransfer.py	/^MySeed = b"LUEMBUSKXRNZQO9ZFLHNVCRMJD9QISVRALLJZPMKXQCMJLSYTAGZR9ILUL9NODGKHLGWHZSKJQTMP9AOF"$/;"	kind:variable	line:5
+MySeed	../SendTransferBasic.py	/^MySeed = b"LUEMBUSKXRNZQO9ZFLHNVCRMJD9QISVRALLJZPMKXQCMJLSYTAGZR9ILUL9NODGKHLGWHZSKJQTMP9AOF"$/;"	kind:variable	line:5
+NowIs	../SendTransfer.py	/^NowIs = datetime.now()  # get a actual date & time - just to have some meaningfull info$/;"	kind:variable	line:12
+NowIs	../SendTransferBasic.py	/^NowIs = datetime.now()  # get a actual date & time - just to have some meaningfull info$/;"	kind:variable	line:9
+SendTransfer.py	../SendTransfer.py	1;"	kind:file	line:1
+SendTransferBasic.py	../SendTransferBasic.py	1;"	kind:file	line:1
+TargetAddress1	../SendTransferBasic.py	/^TargetAddress1 = b"CXDUYK9XGHC9DTSPDMKGGGXAIARSRVAFGHJOCDDHWADLVBBOEHLICHTMGKVDOGRU9TBESJNHAXYPVJ9R9"$/;"	kind:variable	line:6
+TargetAddress2	../SendTransferBasic.py	/^TargetAddress2 = b"CYJV9DRIE9NCQJYLOYOJOGKQGOOELTWXVWUYGQSWCNODHJAHACADUAAHQ9ODUICCESOIVZABA9LTMM9RW"$/;"	kind:variable	line:7
+TargetAddresses	../SendTransfer.py	/^TargetAddresses = []$/;"	kind:variable	line:6
+address	../extendedAPIs/utils/find_transaction_objects.py	/^address=[]$/;"	kind:variable	line:2
+addresses	../generating_address.py	/^addresses = generator.get_addresses(start=0, count=5)$/;"	kind:variable	line:17
+addresses	../generating_address.py	/^addresses = generator.get_addresses(start=0, count=5)$/;"	kind:variable	line:22
+api	../SendTransfer.py	/^api = iota.Iota("https:\/\/nodes.thetangle.org:443")$/;"	kind:variable	line:24
+api	../SendTransferBasic.py	/^api = iota.Iota("https:\/\/nodes.thetangle.org:443")$/;"	kind:variable	line:27
+api	../broadcast_and_store.py	/^api = Iota(server)$/;"	kind:variable	line:7
+api	../get_Node_Info.py	/^api = Iota(server)$/;"	kind:variable	line:7
+broadcast_and_store.py	../broadcast_and_store.py	1;"	kind:file	line:1
+broadcast_and_store.py	../extendedAPIs/broadcast_and_store.py	1;"	kind:file	line:1
+checkAddress.py	../checkAddress.py	1;"	kind:file	line:1
+checksum.py	../checksum.py	1;"	kind:file	line:1
+datetime	../SendTransfer.py	/^from datetime import datetime$/;"	kind:namespace	line:2
+datetime	../SendTransferBasic.py	/^from datetime import datetime$/;"	kind:namespace	line:2
+find_transaction_objects	../extendedAPIs/utils/find_transaction_objects.py	/^from iota.commands.extended.utils import find_transaction_objects$/;"	kind:namespace	line:1
+find_transaction_objects.py	../extendedAPIs/utils/find_transaction_objects.py	1;"	kind:file	line:1
+generating_address.py	../generating_address.py	1;"	kind:file	line:1
+generator	../generating_address.py	/^    AddressGenerator($/;"	kind:variable	line:9
+get_Node_Info.py	../get_Node_Info.py	1;"	kind:file	line:1
+iota	../SendTransfer.py	/^import iota$/;"	kind:namespace	line:1
+iota	../SendTransferBasic.py	/^import iota$/;"	kind:namespace	line:1
+iota	../checkAddress.py	/^import iota$/;"	kind:namespace	line:1
+iota	../checksum.py	/^import iota$/;"	kind:namespace	line:1
+message	../SendTransfer.py	/^                                       message=iota.TryteString.from_unicode($/;"	kind:variable	line:18
+message	../SendTransferBasic.py	/^                               message=iota.TryteString.from_unicode($/;"	kind:variable	line:20
+message	../SendTransferBasic.py	/^                              message=iota.TryteString.from_unicode($/;"	kind:variable	line:13
+message	../extendedAPIs/broadcast_and_store.py	/^    message = transaction.signature_message_fragment$/;"	kind:variable	line:23
+message	../extendedAPIs/utils/find_transaction_objects.py	/^  message = transaction.signature_message_fragment$/;"	kind:variable	line:15
+min_weight_magnitude	../SendTransfer.py	/^                                min_weight_magnitude=14)['bundle']  # it returns a dictionary with a bundle object$/;"	kind:variable	line:31
+min_weight_magnitude	../SendTransferBasic.py	/^                                min_weight_magnitude=14)['bundle']  # it returns a dictionary with a bundle object$/;"	kind:variable	line:34
+newTrytes	../extendedAPIs/broadcast_and_store.py	/^newTrytes = []$/;"	kind:variable	line:4
+pprint	../SendTransfer.py	/^from pprint import pprint$/;"	kind:namespace	line:3
+pprint	../SendTransferBasic.py	/^from pprint import pprint$/;"	kind:namespace	line:3
+pt	../SendTransfer.py	/^pt = []$/;"	kind:variable	line:15
+pt	../SendTransferBasic.py	/^pt = iota.ProposedTransaction(address=iota.Address(TargetAddress1),  # 81 trytes long address$/;"	kind:variable	line:12
+pt2	../SendTransferBasic.py	/^pt2 = iota.ProposedTransaction(address=iota.Address(TargetAddress2),  # 81 trytes long address$/;"	kind:variable	line:19
+security_level	../generating_address.py	/^        security_level=3,$/;"	kind:variable	line:11
+seed	../generating_address.py	/^        seed=seed,$/;"	kind:variable	line:10
+seed	../generating_address.py	/^seed = b'TOKGLENCLJ9CVOFFOROSBODVWFEQE9UOOOGJODTLOQ9SBSXGOXDXHBTRELFDNACYSLEYXGUEZPKSYGYSK'$/;"	kind:variable	line:4
+server	../broadcast_and_store.py	/^server = 'http:\/\/140.116.247.123:14267'$/;"	kind:variable	line:3
+server	../get_Node_Info.py	/^server = 'http:\/\/140.116.247.123:14267'$/;"	kind:variable	line:3
+tag	../SendTransfer.py	/^        tag=iota.Tag(b'RBTC9D9DCDEAKDCDFD9DSC'),$/;"	kind:variable	line:21
+tag	../SendTransferBasic.py	/^    tag=iota.Tag(b'HRIBEK999IOTA999TUTORIAL'),$/;"	kind:variable	line:16
+tag	../SendTransferBasic.py	/^    tag=iota.Tag(b'HRIBEK999IOTA999TUTORIAL'),$/;"	kind:variable	line:23
+test	../extendedAPIs/broadcast_and_store.py	/^test = Iota.broadcast_and_store()$/;"	kind:variable	line:11
+transactions	../extendedAPIs/broadcast_and_store.py	/^transactions = []$/;"	kind:variable	line:10
+transactions	../extendedAPIs/utils/find_transaction_objects.py	/^transactions = find_transaction_objects(addresses=address)$/;"	kind:variable	line:5
+transfers	../SendTransfer.py	/^                                transfers=pt,$/;"	kind:variable	line:30
+transfers	../SendTransferBasic.py	/^                                transfers=[pt, pt2],$/;"	kind:variable	line:33
+trytes	../broadcast_and_store.py	/^trytes = []$/;"	kind:variable	line:11
+value	../SendTransfer.py	/^        value=0))$/;"	kind:variable	line:22
+value	../SendTransferBasic.py	/^    value=0)$/;"	kind:variable	line:17
+value	../SendTransferBasic.py	/^    value=0)$/;"	kind:variable	line:24
